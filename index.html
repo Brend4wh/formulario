@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Educativo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário Educativo</h1>
+        <div id="quiz"></div>
+        <button id="submit">Enviar Respostas</button>
+        <div id="result"></div>
+        <button id="restart" class="hidden">Reiniciar Quiz</button>
+        
+        <div id="wheel" class="hidden">
+            <div class="wheel-container">
+                <div class="arrow"></div>
+                <canvas id="canvas" width="300" height="300"></canvas>
+                <button id="spin">Rodar a Roleta</button>
+            </div>
+            <div id="winnings" class="hidden"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
